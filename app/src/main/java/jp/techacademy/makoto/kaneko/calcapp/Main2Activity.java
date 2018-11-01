@@ -13,18 +13,23 @@ public class Main2Activity extends AppCompatActivity {
         setContentView(R.layout.activity_main2);
 
         Intent intent = getIntent();
+        String anserText = "";
 
 //        int value1 = intent.getIntExtra("VALUE1", 0);
 //        int value2 = intent.getIntExtra("VALUE2", 0);
-        double value1 = intent.getIntExtra("VALUE1", 0);
-        double value2 = intent.getIntExtra("VALUE2", 0);
+//        double value1 = intent.getIntExtra("VALUE1", 0);
+//        double value2 = intent.getIntExtra("VALUE2", 0);
+
+        double value1 = intent.getDoubleExtra("VALUE1", 0);
+        double value2 = intent.getDoubleExtra("VALUE2", 0);
+
         int hikaku = intent.getIntExtra("hikaku", 0);
 
 
         double anser = 0;
 //        double doublebalue1 = Double.valueOf(value1);
 //        double doublebalue2 = Double.valueOf(value2);
-        String anserText = "";
+
 
 
         if (hikaku == 1) {
