@@ -53,6 +53,8 @@ public class Main2Activity extends AppCompatActivity {
             TextView textView = (TextView) findViewById(R.id.textView);
             textView.setText(anserText);
 
+
+
     }
 }
 

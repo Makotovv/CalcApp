@@ -72,7 +72,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
           startActivity(intent);
       }catch(NumberFormatException e){
           Toast.makeText(this, "数字を入力してください", Toast.LENGTH_SHORT).show();
-          return;
+//          return;
       }
     }
 }
